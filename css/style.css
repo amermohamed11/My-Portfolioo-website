@@ -301,6 +301,16 @@ header nav .logo img {
   text-shadow: 1.1px 1px 2px var(--main-color-font);
 }
 
+.mySkills h1 span::after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  background-color: var(--main-color-font);
+  left: 0;
+  bottom: 8px;
+  width: 100%;
+}
+
 .mySkills .img-Container {
   width: 100%;
   display: grid;
