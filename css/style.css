@@ -314,12 +314,19 @@ header nav .logo img {
 .mySkills .img-Container {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 10px 100px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 10px 5%;
   justify-content: center;
+  margin: 0 5%;
+}
+@media only screen and (min-width: 517px) and (max-width: 648px) {
+  .mySkills .img-Container {
+    margin: 0 35%;
+  }
 }
 @media (max-width: 517px) {
   .mySkills .img-Container {
+    margin: 0 auto;
     gap: 0px 0px;
     grid-template-columns: repeat(auto-fill, minmax(200px, auto));
   }
